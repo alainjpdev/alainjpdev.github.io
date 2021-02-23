@@ -1,0 +1,71 @@
+
+
+.imagen {
+   width: 100%;
+   height: 600px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: block;
+}
+
+/* Container holding the image and the text */
+.container {
+   width: 100%;
+   height: 600px;
+   position: fixed;
+   top: 0;
+   left: 0;
+
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Bottom left text */
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ font-size-adjust: 80px;
+}
+
+.topnav {
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.topnav input[type=text] {
+
+  padding: 6px 80px;
+  border: 1px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 20px;
+  border: 2px solid none;
+  border-radius: 4px;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+
+
+}
